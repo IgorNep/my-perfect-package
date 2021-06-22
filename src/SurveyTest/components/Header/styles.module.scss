@@ -1,0 +1,42 @@
+.header {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.headerImg {
+  display: block;
+  width: 340px;
+}
+
+.headerTitle {
+  position: absolute;
+  top: 12%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Montserrat-Bold';
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.logoWrapper {
+  width: 80px;
+  height: 80px;
+  border: solid 1px #ffffff;
+  background-image: linear-gradient(135deg, #303f56 1%, #0c182b);
+  border-radius: 50%;
+}
+.headerTitle__big {
+  font-size: 21px;
+  margin: 1rem 0 0.3rem;
+}
+.headerTitle__small {
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Montserrat-Medium';
+}

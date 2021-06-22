@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,eAAe,CAAC;EACd,gBAAgB,ECFH,OAAO;EDGpB,MAAM,EAAE,GAAG,CAAC,KAAK,CCJJ,OAAO;EDKpB,OAAO,EAAE,IAAI;EACb,KAAK,EAAE,KAAK;EACZ,UAAU,EAAE,MAAM;CAUnB;;AAfD,AAOE,eAPa,CAOb,QAAQ,CAAC;EEPT,WAAW,EAHC,aAAa,EAAE,SAAS,EAAE,KAAK,EAAE,UAAU;EASvD,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;CFEhB;;AATH,AAWE,eAXa,AAWZ,yBAAyB,CAAC;EACzB,gBAAgB,ECdL,OAAO;EDelB,KAAK,ECdM,OAAO;CDenB",
+    "sources": [
+        "TestComponent.scss",
+        "../variables.scss",
+        "../typography.scss"
+    ],
+    "names": [],
+    "file": "TestComponent.css"
+}

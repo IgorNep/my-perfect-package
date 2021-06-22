@@ -1,0 +1,23 @@
+@import '../variables.scss';
+@import '../typography.scss';
+
+.surveyComponent {
+  background-color: green;
+  padding: 16px;
+  width: 360px;
+  text-align: center;
+
+  .title {
+    @include heading;
+  }
+  .subtitle {
+    @include heading;
+    font-style: italic;
+  }
+}
+.userText {
+  color: blue;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+}

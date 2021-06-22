@@ -1,0 +1,73 @@
+.faces__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.faces__item:hover {
+  .faces__img_awful {
+    background: url(../../../assets/img/faces/icon-awful-active.png);
+  }
+  .faces__img_bad {
+    background: url(../../../assets/img/faces/icon-bad-active.png);
+  }
+  .faces__img_ok {
+    background: url(../../../assets/img/faces/icon-ok-active.png);
+  }
+  .faces__img_good {
+    background: url(../../../assets/img/faces/icon-good-active.png);
+  }
+  .faces__img_wow {
+    background: url(../../../assets/img/faces/icon-wow-active.png);
+  }
+}
+
+.faces__img {
+  margin-bottom: 1rem;
+  width: 45px;
+  height: 45px;
+}
+.faces__img_awful {
+  background: url(../../../assets/img/faces/icon-awful-passive.png);
+}
+.faces__img_awful_active {
+  background: url(../../../assets/img/faces/icon-awful-active.png);
+}
+.faces__img_bad {
+  background: url(../../../assets/img/faces/icon-bad-passive.png);
+}
+.faces__img_bad_active {
+  background: url(../../../assets/img/faces/icon-bad-active.png);
+}
+.faces__img_ok {
+  background: url(../../../assets/img/faces/icon-ok-passive.png);
+}
+.faces__img_ok_active {
+  background: url(../../../assets/img/faces/icon-ok-active.png);
+}
+
+.faces__img_good {
+  background: url(../../../assets/img/faces/icon-good-passive.png);
+}
+.faces__img_good_active {
+  background: url(../../../assets/img/faces/icon-good-active.png);
+}
+
+.faces__img_wow {
+  background: url(../../../assets/img/faces/icon-wow-passive.png);
+}
+.faces__img_wow_active {
+  background: url(../../../assets/img/faces/icon-wow-active.png);
+}
+
+.faces__text {
+  color: #d3dfeb;
+  text-transform: uppercase;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+}
+.faces__text_active {
+  color: #000;
+}

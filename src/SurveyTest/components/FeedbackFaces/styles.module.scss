@@ -1,0 +1,32 @@
+.feelings {
+  width: 100%;
+  // padding: 39px 25px;
+  // border-radius: 36px;
+  background: #ffffff;
+  // margin-top: -2.6rem;
+  position: relative;
+  z-index: 9999;
+  margin-bottom: 70px;
+}
+.feelings__title {
+  margin: 0 31px 40px;
+  font-family: 'Montserrat-Bold';
+  text-align: center;
+}
+.title {
+  font-family: 'Montserrat-Bold';
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+.faces {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}

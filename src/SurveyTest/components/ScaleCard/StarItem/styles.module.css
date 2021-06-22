@@ -1,0 +1,16 @@
+.star {
+  width: 40px;
+  height: 40px;
+  background: url(../../../assets/img/scale/icon-star-passive.png);
+  cursor: pointer;
+  border: 1px solid red;
+}
+
+.star:hover {
+  background: url(../../../assets/img/scale/icon-star-active.png);
+}
+
+.star_active {
+  background: url(../../../assets/img/scale/icon-star-active.png);
+}
+/*# sourceMappingURL=styles.module.css.map */

@@ -1,0 +1,27 @@
+.surveyComponent {
+  background-color: green;
+  padding: 16px;
+  width: 360px;
+  text-align: center;
+}
+
+.surveyComponent .title {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.surveyComponent .subtitle {
+  font-family: "Avenir Next", Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.userText {
+  color: blue;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bold;
+}
+/*# sourceMappingURL=SurveyTest.css.map */

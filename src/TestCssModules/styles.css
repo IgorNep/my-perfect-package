@@ -1,0 +1,16 @@
+.testComponent {
+  padding: 16px;
+  width: 360px;
+  text-align: center;
+}
+
+.logo {
+  border: 2px solid green;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  background: url(../img/logo.png);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

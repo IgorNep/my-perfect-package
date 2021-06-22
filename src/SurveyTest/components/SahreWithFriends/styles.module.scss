@@ -1,0 +1,48 @@
+.title {
+  font-family: 'Montserrat-Bold';
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+.friendsShare__title {
+  padding: 0 1rem;
+  margin-bottom: 20px;
+}
+
+.shareImage {
+  max-width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  margin: 0 auto;
+  background: url(../../assets/img/sharing_with_friends/pic-sharing-example.png)
+    center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 0;
+
+  h3 {
+    font-size: 26px;
+
+    &:nth-child(1) {
+      color: #875959;
+    }
+    &:nth-child(2) {
+      color: #ffffff;
+    }
+  }
+}
+.sharedBtn {
+  margin: 30px auto 10px;
+}
+
+.notNowBtn {
+  background: #fff;
+  margin: 0 auto;
+}

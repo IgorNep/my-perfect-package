@@ -1,0 +1,39 @@
+.feelings {
+  width: 100%;
+  background: #ffffff;
+  position: relative;
+  z-index: 9999;
+  margin-bottom: 70px;
+}
+
+.feelings__title {
+  margin: 0 31px 40px;
+  font-family: 'Montserrat-Bold';
+  text-align: center;
+}
+
+.title {
+  font-family: 'Montserrat-Bold';
+  font-size: 25px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.faces {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+/*# sourceMappingURL=styles.module.css.map */

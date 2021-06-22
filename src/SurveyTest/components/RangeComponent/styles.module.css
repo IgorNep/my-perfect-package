@@ -1,0 +1,101 @@
+.range__title {
+  margin-top: 70px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.rangeWrapper {
+  padding: 5rem 0 0;
+  position: relative;
+}
+
+.rangeIconValue {
+  position: absolute;
+  top: 5%;
+  width: 60px;
+  height: 47px;
+  background: url(../../assets/img/indicator.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Montserrat-Medium';
+}
+
+.rangeSteps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.rangeSlider {
+  position: relative;
+  margin: 0 1rem;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 335px;
+  height: 1px;
+  background: -webkit-gradient(linear, left top, right top, from(#ffa188), color-stop(50%, #ffa188), color-stop(50%, #d3dfeb), to(#d3dfeb));
+  background: linear-gradient(to right, #ffa188 0%, #ffa188 50%, #d3dfeb 50%, #d3dfeb 100%);
+  outline: none;
+  opacity: 1;
+  -webkit-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.rangeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 40px;
+  height: 40px;
+  background: #ffa188;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.rangeSlider::-moz-range-thumb {
+  width: 40px;
+  height: 40px;
+  background: #ffa188;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.rangeText {
+  color: #9ba5ae;
+  font-family: 'Montserrat-Bold';
+  font-size: 16px;
+}
+
+.rangeComments {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.rangeComment {
+  color: #9ba5ae;
+  font-family: 'Montserrat-Regular';
+  font-size: 16px;
+  width: 65px;
+}
+/*# sourceMappingURL=styles.module.css.map */

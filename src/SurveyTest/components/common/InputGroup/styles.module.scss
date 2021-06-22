@@ -1,0 +1,65 @@
+.input {
+  padding: 10px 0;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid#b0bbc5;
+  font-family: 'Montserrat-Regular';
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  width: 100%;
+}
+.inputGroup {
+}
+
+.small {
+  color: #9ba5ae;
+  font-family: 'Montserrat-Regular';
+  font-size: 16px;
+  padding-top: 1rem;
+  display: block;
+  text-align: right;
+}
+.input:focus {
+  border-bottom: 2px solid #ffa188;
+
+  &::-moz-placeholder {
+    display: none;
+  }
+
+  &:-ms-input-placeholder {
+    display: none;
+  }
+
+  &::-ms-input-placeholder {
+    display: none;
+  }
+
+  &::-webkit-input-placeholder {
+    display: none;
+  }
+
+  &::placeholder {
+    display: none;
+  }
+}
+
+.input::-webkit-input-placeholder {
+  color: #9ba5ae;
+}
+.input::-moz-placeholder {
+  color: #9ba5ae;
+}
+.input:-ms-input-placeholder {
+  color: #9ba5ae;
+}
+.input::-ms-input-placeholder {
+  color: #9ba5ae;
+}
+.input::placeholder {
+  color: #9ba5ae;
+}
